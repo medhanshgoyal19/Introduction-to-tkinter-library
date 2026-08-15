@@ -1,0 +1,83 @@
+# Introduction to Tkinter 🐍
+
+A simple Python project demonstrating how to create a basic graphical user interface (GUI) using the built-in `tkinter` library.
+
+## 📌 About
+
+This project creates a basic Tkinter window with:
+
+* A window title: **Introduction to tkinter**
+* A window size of **500 × 500 pixels**
+* An active event loop that keeps the application running
+
+It is a beginner-friendly example for understanding the fundamentals of Tkinter.
+
+## 🛠️ Technologies Used
+
+* **Python 3**
+* **Tkinter** — Python's standard library for creating GUI applications
+
+## 💻 Code
+
+```python
+import tkinter as tk
+
+root = tk.Tk()
+
+root.title('Introduction to tkinter')
+root.geometry('500x500')
+
+root.mainloop()
+```
+
+## ▶️ How to Run
+
+1. Make sure Python 3 is installed on your computer.
+2. Clone this repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+3. Navigate to the project directory:
+
+```bash
+cd <project-folder>
+```
+
+4. Run the Python file:
+
+```bash
+python filename.py
+```
+
+A **500 × 500** Tkinter window should appear.
+
+## 📚 What I Learned
+
+This project demonstrates the basic Tkinter concepts:
+
+* `tk.Tk()` — creates the main application window.
+* `root.title()` — sets the window title.
+* `root.geometry()` — sets the window dimensions.
+* `root.mainloop()` — starts Tkinter's event loop and keeps the application running.
+
+## 🎯 Purpose
+
+This project is part of my learning journey with **Python GUI development** and serves as a starting point for building more advanced Tkinter applications.
+
+## 🚀 Future Improvements
+
+Some features that can be added later:
+
+* Labels and buttons
+* Text input fields
+* Images
+* Menus
+* Frames and layouts
+* Event handling
+* Interactive mini-projects
+
+## 📄 License
+
+This project is available for learning and educational purposes.
